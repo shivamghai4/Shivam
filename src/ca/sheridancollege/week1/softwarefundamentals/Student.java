@@ -12,6 +12,26 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private int sID;
+
+    /**
+     * Get the value of sID
+     *
+     * @return the value of sID
+     */
+    public int getsID() {
+        return sID;
+    }
+
+    /**
+     * Set the value of sID
+     *
+     * @param sID new value of sID
+     */
+    public void setsID(int sID) {
+        this.sID = sID;
+    }
+
 
     /**
      * Get the value of name
